@@ -16,4 +16,14 @@ public class CIController {
         System.out.println("我不追到");
         return  "hello Word";
     }
+
+
+    @RequestMapping("/hello2")
+    public  String sayHello2(){
+
+
+        System.out.println("helo2");
+
+        return  "Hello Word2";
+    }
 }
