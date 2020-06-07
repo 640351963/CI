@@ -10,7 +10,7 @@ public class CIController {
     public  String hello(){
         System.out.println("fixme");
 
-        System.out.println("我不追到");
+        System.out.println("333");
         return  "hello Word";
     }
 }
