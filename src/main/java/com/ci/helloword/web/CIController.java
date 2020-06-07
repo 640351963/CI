@@ -9,6 +9,9 @@ public class CIController {
     @RequestMapping("/hello")
     public  String hello(){
         System.out.println("fixme");
+
+        System.out.println("333");
+        System.out.println("你号哦");
         System.out.println("你号啊");
         System.out.println("我不追到");
         return  "hello Word";
